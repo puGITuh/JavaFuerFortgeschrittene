@@ -30,8 +30,13 @@ public class CustomGenericTypes {
 
     public static void main(String[] args) {
         Pair<String, Integer> pair = new Pair<>("Hello", 123);
+        Pair<String, String> pairString= new Pair<String,String>("First", "Second");
+        
         System.out.println("First: " + pair.getFirst());  // Output: Hello
         System.out.println("Second: " + pair.getSecond());  // Output: 123
+
+System.out.println("erste: "+ pairString.getFirst());
+System.out.println("zweite: "+pairString.getSecond());
     }
 
 }

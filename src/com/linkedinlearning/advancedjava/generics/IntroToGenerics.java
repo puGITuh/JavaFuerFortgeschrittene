@@ -5,7 +5,7 @@ import java.util.List;
 
 public class IntroToGenerics {
 
-    record Book(String title, String author) {}
+    record Book(String title, String author) {};
 
     // A generic class named Box
     static class Box<T> {
